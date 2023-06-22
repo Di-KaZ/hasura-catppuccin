@@ -5,7 +5,7 @@ Will not provide support but feel free to use and give me advice on how to imple
 I may or may not update this in the future to be 'cleaner'.
 
 # Screenshots
-![Screenshot](https://raw.githubusercontent.com/Di-KaZ/catppuccino-hasura/master/screen.png)
+![Screenshot](https://github.com/Di-KaZ/hasura-catppuccin/blob/main/screen.png?raw=true)
 
 # Info
 In manifest.json, change the "matches" to your own hasura domain.
