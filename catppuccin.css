@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@100&display=swap");
+
+* {
+  font-family: "Kalam", cursive !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+:root {
+  --catppucin-rosewater: hsl(10, 58%, 90%);
+  --catppucin-flamingo: hsl(0, 58%, 86%);
+  --catppucin-pink: hsl(316, 74%, 85%);
+  --catppucin-mauve: hsl(267, 83%, 80%);
+  --catppucin-red: hsl(351, 74%, 73%);
+  --catppucin-maroon: hsl(355, 71%, 77%);
+  --catppucin-peach: hsl(21, 86%, 73%);
+  --catppucin-yellow: hsl(40, 70%, 78%);
+  --catppucin-green: hsl(105, 48%, 72%);
+  --catppucin-teal: hsl(171, 47%, 69%);
+  --catppucin-sky: hsl(189, 59%, 73%);
+  --catppucin-sapphire: hsl(199, 66%, 69%);
+  --catppucin-blue: hsl(220, 83%, 75%);
+  --catppucin-lavender: hsl(234, 82%, 85%);
+  --catppucin-text: hsl(227, 68%, 88%);
+  --catppucin-subtext1: hsl(228, 39%, 80%);
+  --catppucin-subtext0: hsl(227, 27%, 72%);
+  --catppucin-overlay2: hsl(228, 20%, 65%);
+  --catppucin-overlay1: hsl(228, 15%, 57%);
+  --catppucin-overlay0: hsl(230, 12%, 49%);
+  --catppucin-surface2: hsl(230, 14%, 41%);
+  --catppucin-surface1: hsl(231, 16%, 34%);
+  --catppucin-surface0: hsl(230, 19%, 26%);
+  --catppucin-base: hsl(232, 23%, 18%);
+  --catppucin-mantle: hsl(233, 23%, 15%);
+  --catppucin-crust: hsl(236, 23%, 12%);
+}
+
+a {
+  color: var(--catppucin-overlay0) !important;
+}
+
+/** Default Inputs overrides **/
+
+.bg-gray-200 {
+  background-color: var(--catppucin-lavender) !important;
+  color: var(--catppucin-crust) !important;
+}
+
+.items-center,
+.max-w-full,
+.justify-center,
+.inline-flex,
+.text-sm,
+.font-sans,
+.font-semibold,
+.bg-gradient-to-t,
+.border,
+.rounded,
+.shadow-sm,
+.focus-visible:outline-none,
+.focus-visible:bg-gradient-to-t,
+.focus-visible:ring-2,
+.focus-visible:ring-offset-2,
+.focus-visible:ring-yellow-400,
+.disabled:opacity-60,
+.text-gray-600,
+.bg-gray-50,
+.from-transparent,
+.to-white,
+.border-gray-300,
+.hover:border-gray-400,
+.disabled:border-gray-300,
+.focus-visible:from-bg-gray-50,
+.focus-visible:to-bg-gray-50,
+.focus-visible:ring-gray-400,
+.h-btn,
+.px-sm {
+  color: var(--catppucin-sapphire) !important;
+  background: var(--catppucin-lavender) !important;
+}
+
+#content
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div.Main_main__lvZ5r.container-fluid
+  > div.Common_wd80__SAu1m
+  > div
+  > div
+  > div
+  > div
+  > div
+  > div.styles_padd_top__mB6WM
+  > div.flex.items-center.rounded.bg-gray-200.border.border-gray-300.py-sm.px-sm.mb-md.mt-md
+  > a {
+  background-color: var(--catppucin-lavender) !important;
+  color: var(--catppucin-crust) !important;
+  border: 1px var(--catppucin-crust) !important;
+}
+
+input.border-gray-300 {
+  border-color: var(--catppucin-peach) !important;
+  border-radius: 0px !important;
+}
+
+input.border-gray-300:focus {
+  border-color: var(--catppucin-peach) !important;
+  border-radius: 0px !important;
+}
+
+input {
+  background: var(--catppucin-mantle) !important;
+  color: var(--catppucin-text) !important;
+}
+/**                           **/
+
+.react-toggle--checked .react-toggle-track {
+  background-color: var(--catppucin-green) !important;
+}
+
+.react-toggle-thumb {
+  border-color: var(--catppucin-overlay1) !important;
+}
+
+/** Default table overrides **/
+.Table_table__SYnVw {
+  border-color: var(--catppucin-lavender) !important;
+}
+
+tr.bg-gray-50,
+tr.bg-gray-50 th,
+.Table_header_item__hbupY,
+.Table_sidebar_item__yZ0Vg {
+  background-color: var(--catppucin-lavender) !important;
+  color: var(--catppucin-crust) !important;
+}
+
+/**                           **/
+
+/** Navbar bg override **/
+.bg-slate-700,
+.bg-gray-800 {
+  background-color: var(--catppucin-crust) !important;
+  color: var(--catppucin-text) !important;
+}
+
+/** SubText override **/
+.text-muted {
+  color: var(--catppucin-subtext1) !important;
+}
+
+/** Base bg override **/
+.bg-white {
+  background: var(--catppucin-mantle) !important;
+}
+
+.Main_main__lvZ5r {
+  background: var(--catppucin-mantle) !important;
+  color: var(--catppucin-text) !important;
+}
+
+.graphiql-container div {
+  background: var(--catppucin-mantle) !important;
+  color: var(--catppucin-text) !important;
+}
+/**                           **/
+
+/** removes border around request header tab **/
+#apiRequestBlock > div > details:nth-child(2) > div > div {
+  border-radius: 0% !important;
+  border-color: var(--catppucin-lavender);
+}
+
+/** changing border color request header tab **/
+#apiRequestBlock > div > details:nth-child(2) > div > div * {
+  border-color: var(--catppucin-lavender);
+}
+
+/** endpoint url input override **/
+.bg-\[\#f8fafb\] {
+  background: var(--catppucin-mantle) !important;
+}
+
+/** graphiql requester override **/
+#apiRequestBlock
+  > div
+  > details:nth-child(1)
+  > div
+  > div
+  > div
+  > div.flex.items-center.w-full
+  > button {
+  background: var(--catppucin-peach) !important;
+  color: var(--catppucin-mantle) !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+}
+
+#tooltip-trigger > a {
+  border-radius: 0px !important;
+}
+
+#tooltip-trigger > a:hover {
+  background: var(--catppucin-lavender) !important;
+  color: var(--catppucin-mantle) !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+
+#tooltip-trigger > a.visited\:\!text-primary:visited {
+  background: var(--catppucin-peach) !important;
+  color: var(--catppucin-mantle) !important;
+}
+
+/** graphiql execute button override **/
+#apiRequestBlock
+  > div
+  > div
+  > div
+  > div
+  > div.graphiql-container
+  > div.editorWrap
+  > div.topBarWrap
+  > div
+  > div.execute-button-wrap
+  > button {
+  background: var(--catppucin-green) !important;
+  border-radius: 0% !important;
+  border: 0px !important;
+  box-shadow: none !important;
+  fill: inherit !important;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#apiRequestBlock
+  > div
+  > div
+  > div
+  > div
+  > div.graphiql-container
+  > div.editorWrap
+  > div.topBarWrap
+  > div
+  > div.execute-button-wrap
+  > button:hover {
+  filter: brightness(0.9);
+  transition: filter 0.2s ease-in-out !important;
+}
+/**                           **/
+
+/** graphiql toolbar override **/
+.graphiql-container .toolbar-button {
+  background: var(--catppucin-crust) !important;
+  border-radius: 0% !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  color: var(--catppucin-text) !important;
+}
+
+.graphiql-container .toolbar-button:hover {
+  background-color: var(--catppucin-blue) !important;
+  color: var(--catppucin-mantle) !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+/**                           **/
+
+#content
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div.Main_main__lvZ5r.container-fluid
+  > div.Common_wd20__6SxEB.Common_align_left__tXrBe.Common_height100__2d8EP
+  > div
+  > div
+  > ul
+  > li
+  > a {
+  background-color: var(--catppucin-mantle) !important;
+}
+
+#content
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div.Main_main__lvZ5r.container-fluid
+  > div.Common_wd20__6SxEB.Common_align_left__tXrBe.Common_height100__2d8EP
+  > div
+  > div
+  > ul
+  > li
+  > div {
+  background-color: var(--catppucin-mantle) !important;
+}
+
+#content
+  > div
+  > div:nth-child(1)
+  > div
+  > div
+  > div.Main_main__lvZ5r.container-fluid
+  > div.Common_wd20__6SxEB.Common_align_left__tXrBe.Common_height100__2d8EP
+  > div {
+  background-color: var(--catppucin-mantle) !important;
+  color: var(--catppucin-text) !important;
+}
+
+.docExplorerHide {
+  color: var(--catppucin-text) !important;
+}
+
+.CodeMirror * {
+  font-size: 18px;
+}
+
+.CodeMirror .CodeMirror-cursor {
+  border-left: 2px solid var(--catppucin-text) !important;
+}
+
+.docExplorerShow {
+  background: var(--catppucin-peach) !important;
+  color: var(--catppucin-crust) !important;
+  border: 0px !important;
+}
+.graphiql-container .docExplorerShow:before {
+  border-color: var(--catppucin-crust) !important;
+}
+
+/** code mirror override **/
+div.cm-s-ctp-macchiato.CodeMirror {
+  --ctp-rosewater: 244, 219, 214;
+  --ctp-flamingo: 240, 198, 198;
+  --ctp-pink: 245, 189, 230;
+  --ctp-mauve: 198, 160, 246;
+  --ctp-red: 237, 135, 150;
+  --ctp-maroon: 238, 153, 160;
+  --ctp-peach: 245, 169, 127;
+  --ctp-yellow: 238, 212, 159;
+  --ctp-green: 166, 218, 149;
+  --ctp-teal: 139, 213, 202;
+  --ctp-sky: 145, 215, 227;
+  --ctp-sapphire: 125, 196, 228;
+  --ctp-blue: 138, 173, 244;
+  --ctp-lavender: 183, 189, 248;
+  --ctp-text: 197, 207, 245;
+  --ctp-subtext1: 179, 188, 224;
+  --ctp-subtext0: 161, 170, 203;
+  --ctp-overlay2: 143, 151, 183;
+  --ctp-overlay1: 125, 132, 162;
+  --ctp-overlay0: 108, 114, 141;
+  --ctp-surface2: 90, 95, 120;
+  --ctp-surface1: 72, 76, 100;
+  --ctp-surface0: 54, 58, 79;
+  --ctp-base: 36, 39, 58;
+  --ctp-mantle: 30, 32, 48;
+  --ctp-crust: 24, 25, 38;
+  --bg0: rgb(var(--ctp-base));
+  --bg1: rgb(var(--ctp-overlay1));
+  --bg4: rgb(var(--ctp-overlay0));
+  --fg: rgb(var(--ctp-text));
+  --fg3: rgb(var(--ctp-subtext0));
+  --gray: rgb(var(--ctp-subtext1));
+  --blue: rgb(var(--ctp-blue));
+  --yellow: rgb(var(--ctp-yellow));
+  --aqua: rgb(var(--ctp-blue));
+  --orange: rgb(var(--ctp-peach));
+  --current-line: rgb(var(--ctp-surface0));
+  --selection: rgb(var(--ctp-surface2));
+  --atom: rgb(var(--ctp-lavender));
+  --cursor: rgb(var(--ctp-overlay1));
+  --keyword: rgb(var(--ctp-red));
+  --operator: rgb(var(--ctp-sky));
+  --number: rgb(var(--ctp-peach));
+  --definition: rgb(var(--ctp-blue));
+  --string: rgb(var(--ctp-green));
+}
+
+.cm-s-ctp-macchiato.CodeMirror,
+.cm-s-ctp-macchiato .CodeMirror-gutters {
+  background-color: var(--bg0);
+  color: var(--fg3);
+}
+.cm-s-ctp-macchiato .CodeMirror-gutters {
+  background: var(--bg0);
+  border-right: 0px;
+}
+.cm-s-ctp-macchiato .CodeMirror-linenumber {
+  color: var(--bg4);
+}
+.cm-s-ctp-macchiato .CodeMirror-cursor {
+  border-left: 1px solid var(--fg);
+}
+.cm-s-ctp-macchiato.cm-fat-cursor .CodeMirror-cursor {
+  background-color: var(--cursor) !important;
+}
+.cm-s-ctp-macchiato .cm-animate-fat-cursor {
+  background-color: var(--cursor) !important;
+}
+.cm-s-ctp-macchiato div.CodeMirror-selected {
+  background: var(--selection);
+}
+.cm-s-ctp-macchiato span.cm-meta {
+  color: var(--blue);
+}
+.cm-s-ctp-macchiato span.cm-comment {
+  color: var(--gray);
+}
+.cm-s-ctp-macchiato span.cm-number {
+  color: var(--number);
+}
+.cm-s-ctp-macchiato span.cm-atom {
+  color: var(--atom);
+}
+.cm-s-ctp-macchiato span.cm-keyword {
+  color: var(--keyword);
+}
+.cm-s-ctp-macchiato span.cm-variable {
+  color: var(--fg);
+}
+.cm-s-ctp-macchiato span.cm-variable-2 {
+  color: var(--fg);
+}
+.cm-s-ctp-macchiato span.cm-variable-3,
+.cm-s-ctp-macchiato .cm-s-gruvbox-dark span.cm-type {
+  color: var(--yellow);
+}
+.cm-s-ctp-macchiato span.cm-operator {
+  color: var(--operator);
+}
+.cm-s-ctp-macchiato span.cm-callee {
+  color: var(--fg);
+}
+.cm-s-ctp-macchiato span.cm-def {
+  color: var(--definition);
+}
+.cm-s-ctp-macchiato span.cm-property {
+  color: var(--fg);
+}
+.cm-s-ctp-macchiato span.cm-string {
+  color: var(--string);
+}
+.cm-s-ctp-macchiato span.cm-string-2 {
+  color: var(--aqua);
+}
+.cm-s-ctp-macchiato span.cm-qualifier {
+  color: var(--aqua);
+}
+.cm-s-ctp-macchiato span.cm-attribute {
+  color: var(--aqua);
+}
+.cm-s-ctp-macchiato .CodeMirror-activeline-background {
+  background: var(--current-line);
+}
+.cm-s-ctp-macchiato .CodeMirror-matchingbracket {
+  background: var(--gray);
+  color: var(--bg0) !important;
+}
+.cm-s-ctp-macchiato span.cm-builtin {
+  color: var(--orange);
+}
+.cm-s-ctp-macchiato span.cm-tag {
+  color: var(--orange);
+}
